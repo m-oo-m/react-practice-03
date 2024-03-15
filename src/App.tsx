@@ -1,11 +1,11 @@
-import Counter from '@/components/Counter';
+import TodoFilter from '@/components/TodoFilter';
 
 function App() {
   return (
     <>
-      <div className=" flex h-screen items-center justify-center bg-gray-100">
-        <div>
-          <Counter />
+      <div className="flex h-screen justify-center bg-gray-100">
+        <div className="w-[600px] bg-white p-4">
+          <TodoFilter />
         </div>
       </div>
     </>
